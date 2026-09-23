@@ -1,0 +1,588 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+button {
+  width: 35%;
+  background-color: #f3ebdc;
+  border-radius: 50px !important;
+  padding: 5px 0px;
+  font-size: 12px !important;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase !important;
+}
+.left {
+  margin-left: 18%;
+}
+
+header {
+  width: 100%;
+  padding: 15px 0px;
+  border-bottom: 5px solid #f3ebdc;
+}
+.logo {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 12px;
+  text-align: center;
+}
+.logo span {
+  font-size: 12px;
+  font-weight: 600;
+}
+.wrapnav {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+}
+nav {
+  width: 80%;
+  margin-top: 5px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 0px;
+}
+nav ul li {
+  font-size: 11px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+nav a:hover {
+  color: #000;
+}
+.iconwrap {
+  width: 20%;
+}
+.iconwrap ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 0px;
+  justify-content: end;
+}
+.iconwrap ul li {
+  width: 10%;
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+}
+.socialiconwrap {
+  width: 3%;
+  height: 100%;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  background-color: #ededed;
+  display: flex;
+  align-items: center;
+}
+.socialiconwrap ul {
+  list-style: none;
+  padding-left: 12px;
+}
+.socialiconwrap ul li {
+  width: 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.dealwrap {
+  width: 27%;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+.dealimg {
+  width: 40%;
+  position: absolute;
+  right: 80%;
+  bottom: 0%;
+}
+h2 {
+  font-size: 33px !important;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0px !important;
+}
+.oferwrap {
+  width: 72%;
+  position: absolute;
+  top: 5%;
+  right: 3%;
+}
+.oferwrap span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 25px;
+  line-height: 20px;
+  font-weight: 100;
+}
+.timewrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.boxone {
+  width: 75px;
+  height: 90px;
+  border-radius: 15px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 17px;
+  padding-top: 15px;
+}
+.boxone span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.cut {
+  text-decoration: line-through;
+  margin-right: 27px;
+  font-size: 19px;
+}
+.moneywrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  font-size: 30px;
+  color: #fff;
+}
+h1 {
+  font-size: 80px !important;
+  color: #171717;
+  position: absolute;
+  top: 16%;
+  right: 15%;
+  text-transform: uppercase;
+}
+.btntextwrap {
+  width: 15%;
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  top: 45%;
+  left: 51%;
+}
+.wdth {
+  width: 51%;
+  background-color: #171717;
+  color: #fff;
+}
+
+.alloferwrap {
+  width: 100%;
+  margin-top: 4%;
+}
+.alloferwrap ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.alloferwrap ul li {
+  color: #2d2b27;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 48px;
+}
+.shoewrap {
+  width: 100%;
+}
+.shoe {
+  width: 100%;
+  margin-bottom: 10%;
+  position: relative;
+}
+.shoetxt {
+  position: absolute;
+  bottom: 5%;
+  left: 26%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 23px;
+  text-align: center;
+  color: #2d2b27;
+}
+.bag {
+  width: 100%;
+}
+.womenjacket {
+  width: 100%;
+  height: 100%;
+  background: url(../imgs/womenjacket.jpg) no-repeat top left;
+  background-size: 100% 100%;
+  position: relative;
+}
+.vintagewrap {
+  width: 50%;
+  font-size: 22px;
+  color: #2d2b27;
+  position: absolute;
+  top: 23%;
+  left: 8%;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 23px;
+}
+.vintagewrap span {
+  color: #2d2b27;
+  font-size: 15px;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 14px;
+  font-weight: 400;
+}
+.margntop {
+  margin-top: 13%;
+}
+.new {
+  width: auto;
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}
+.jacketwrap {
+  width: 100%;
+}
+.menjacket {
+  width: 100%;
+  background: url(../imgs/menjacket.jpg) no-repeat top left;
+  position: relative;
+  margin-bottom: 5%;
+}
+.sunglas {
+  width: 100%;
+  height: 229px;
+  background: url(../imgs/sunglas.jpg) no-repeat top left;
+  position: relative;
+  background-size: 100% 100%;
+}
+.sunglasTxt {
+  font-size: 14px;
+  color: #292929;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 8%;
+  font-weight: 700;
+  left: 25%;
+}
+.menbtn {
+  width: 55%;
+  background-color: #171717;
+  color: #fff;
+}
+.oferbrand {
+  width: 100%;
+  height: 250px;
+  background: url(../imgs/offer.jpg) no-repeat top left;
+  position: relative;
+  margin-top: 2%;
+}
+.brandtxtwrap {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2d2b27;
+  text-transform: uppercase;
+  position: absolute;
+  right: 10%;
+  top: 23%;
+}
+.brandtxtwrap span {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 8px 0px 20px;
+}
+.btnpad {
+  padding: 10px;
+}
+
+h3 {
+  font-size: 25px !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+.typeswrap {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 4%;
+}
+.typeswrap span {
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.typeswrap ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 15px;
+}
+.typeswrap ul li {
+  width: 32%;
+  margin-right: 15px;
+  position: relative;
+}
+.parent {
+  position: absolute;
+  bottom: 7%;
+  left: 33%;
+  width: 35%;
+  background-color: #171717;
+  color: #fff;
+  padding: 10px 0px;
+}
+
+h4 {
+  font-size: 25px !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 35px !important;
+}
+.productwrap {
+  width: 100%;
+}
+.productwrap ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.productwrap ul li {
+  color: #2d2b27;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 48px;
+}
+.wrapimg {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapimg ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin-top: 15px;
+}
+.wrapimg ul li {
+  padding-right: 30px;
+}
+.imgtxtwrap {
+  width: 100%;
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+  line-height: 20px;
+  margin-top: 15px;
+}
+.txtcut {
+  text-decoration: line-through;
+  float: left;
+  margin-right: 15px;
+}
+.productbtn {
+  width: 13%;
+  border: 2px solid #d9c8aa;
+  padding: 10px;
+  margin-top: 13px;
+}
+
+.subscribebg {
+  background-color: #d7dbd5;
+  margin-top: 25px;
+}
+.subswrap {
+  width: 100%;
+  background-color: #d7dbd5;
+  font-size: 25px;
+  color: black;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  margin-top: 5rem;
+}
+.subswrap span {
+  font-size: 20px;
+}
+.subsbtn {
+  background-color: black;
+  color: white;
+  padding: 10px 0px;
+  width: 9rem;
+  margin-top: 5px;
+}
+.subswrapimg {
+  width: 100%;
+  height: 250px;
+  background: url(../imgs/subscribe.png) no-repeat top left;
+  background-size: contain;
+}
+
+.blog {
+  width: 100%;
+  margin-bottom: 5%;
+}
+.blog ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.blog ul li {
+  margin-right: 20px;
+  position: relative;
+}
+.blog ul li:last-child {
+  margin-right: 0px;
+}
+.blogtext {
+  width: 80%;
+  background-color: white;
+  font-size: 19px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -25px;
+  left: 50px;
+  padding: 5px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blogtext span {
+  color: #bbb1b1;
+  font-size: 15px;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.info ul {
+  list-style: none;
+}
+.info ul li {
+  font-size: 14px;
+  color: #727272;
+  text-transform: capitalize;
+}
+.info ul li:first-child {
+  margin-bottom: 8px;
+}
+.info ul li span {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+}
+.darkblck {
+  text-transform: capitalize;
+  color: black;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+}
+.topmrgn {
+  margin-top: 13px;
+}
+
+.fotrwrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.fotrwraptxt {
+  font-size: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 15px;
+  margin-top: 13px;
+}
+.fotrwraptxt span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* login-container */
+.bg-color {
+  background-color: rgb(197, 197, 246);
+}
+.login-container p {
+  font-size: 30px;
+  margin: 0 auto;
+}
+.login-container {
+  border: 1px solid white;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.input-style {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.login-button{width: 80px; height: 30px; background:#fff;}
+.div-style{margin-bottom: 10px;}

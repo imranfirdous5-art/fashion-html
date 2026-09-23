@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- stylesheet-css -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-color">
+    <div class="login-container">
+        <p>Login-Form</p>
+        <form action="" onsubmit="login(event)">
+            <div class="div-style">
+                <label for="email">Email:</label><br>
+                <input type="email" id="loginEmail" placeholder="enter email here..." class="input-style">
+            </div>
+            <div class="div-style">
+                <label for="password">Password:</label><br>
+                <input type="password" id="loginPassword" placeholder="enter password here..." class="input-style">
+            </div>
+            <div>
+                <button type="submit" class="login-button">Login</button>
+                <button><a href="index.html">back</a></button>
+
+            </div>
+        </form>
+        <br><br>
+
+        <p>
+            Don't have an account?
+            <a href="signup.html">Sign Up</a>
+        </p>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
