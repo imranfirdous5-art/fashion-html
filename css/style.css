@@ -80,6 +80,26 @@ nav a:hover {
   cursor: pointer;
 }
 
+.dashboard-iconwrap ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.dashboard-iconwrap ul li{
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.logoutButtonBg{
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(196, 217, 253);
+}
+
+
 .banner {
   width: 100%;
   position: relative;

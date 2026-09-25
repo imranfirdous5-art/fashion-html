@@ -18,9 +18,10 @@ function login(e){
     }
 
     alert('login successfull');
-    e.target.reset();
-
+    localStorage.setItem('loggedInUser', JSON.stringify(user));
+    
     window.location.href = 'dashboard.html'
+    e.target.reset();
 
 
 }

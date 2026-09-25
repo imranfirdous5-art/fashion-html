@@ -24,8 +24,8 @@ function signup(e){
     localStorage.setItem('allUsers', JSON.stringify(usersList));
 
     alert('signup successfully')
-    e.target.reset();
-    // window.location.href = 'login.html';
+    // e.target.reset();
+    window.location.href = 'index.html';
 
 
 
