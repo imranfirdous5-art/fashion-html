@@ -80,7 +80,7 @@ nav a:hover {
   cursor: pointer;
 }
 
-.dashboard-iconwrap ul{
+.dashboard-iconwrap ul {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -88,17 +88,16 @@ nav a:hover {
   margin-bottom: 0px;
   padding-left: 0px;
 }
-.dashboard-iconwrap ul li{
+.dashboard-iconwrap ul li {
   text-align: center;
   display: flex;
   align-items: center;
 }
-.logoutButtonBg{
+.logoutButtonBg {
   width: 100%;
   padding: 10px;
   background-color: rgb(196, 217, 253);
 }
-
 
 .banner {
   width: 100%;
@@ -604,5 +603,39 @@ h4 {
   border: none;
   border-radius: 5px;
 }
-.login-button{width: 80px; height: 30px; background:#fff;}
-.div-style{margin-bottom: 10px;}
+.login-button {
+  width: 80px;
+  height: 30px;
+  background: #fff;
+}
+.back-button {
+  width: 80px;
+  height: 30px;
+  background: #fff;
+  padding: 7px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+.div-style {
+  margin-bottom: 10px;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.brdr{border: 1px solid black;}
+.ul-style{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.li-style{border: 1px solid black;}
+/* li img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+} */
